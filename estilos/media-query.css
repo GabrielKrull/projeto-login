@@ -9,7 +9,7 @@ Desktop: 992px até 1920px
 Grandes telas: acima de 1920px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px)  {
 
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -17,6 +17,7 @@ Grandes telas: acima de 1920px
 
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -54,9 +55,11 @@ Grandes telas: acima de 1920px
 
     div#formulario > h1{
         font-size: 2em;
+        margin-top: 30px;
     }
 
     div#formulario > p {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    margin: 30px 0px;
 }
 }
